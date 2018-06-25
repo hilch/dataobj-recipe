@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.6.57 SP?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="IO mapping file">IoMap.iom</Object>
+    <Object Type="File" Description="PV mapping file">PvMap.vvm</Object>
+  </Objects>
+  <Configuration ClassID="1A4000.00" GeneratePPCode="false" HasNcOperatingSystem="true" LocalVariablesMemory="MemoryPool" ModuleID="AR000" Target="SG4">
+    <AutomationRuntime Version="G4.34" />
+    <Build GccVersion="4.1.2" />
+    <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
+    <Transfer AllowWarmRestart="true" DownloadMode="Overload" GeneratePviTransferList="true" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" PackedArConfig="false" PackedIoMap="false" PromptBeforeProject="false" PromptBeforeTask="false" TransferOnlyRelevantChanges="false" />
+    <Vc FirmwareVersion="V4.34.2" />
+    <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" />
+  </Configuration>
+</Cpu>

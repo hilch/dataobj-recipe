@@ -1,0 +1,6 @@
+VAR
+	step : USINT := 0;
+	recipe2 : myRecipe := (0);
+	recipe1 : myRecipe := (0);
+	recipeHandling : datmodHand_typ := (0);
+END_VAR
